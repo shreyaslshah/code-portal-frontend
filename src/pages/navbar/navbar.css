@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container{
+  background: #112240;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 100%;
+}
+
+.navbar-container .logo{
+  margin-left: 51px;
+  color: #64ffda;
+  font-size: 20px;
+  font-family: "IBM Plex Mono", monospace;
+}
+
+.navbar-container .name{
+  margin-right: 51px;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 46px;
+  color: #64ffda;
+  height: 40px;
+  width: 40px;
+  background-color: #112240;
+  border-radius: 50%;
+  border: 1px solid #64ffda;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar-container .name-loggedout{
+  margin-right: 80px;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 46px;
+  color: #64ffda !important;
+  height: 40px;
+  width: 40px;
+  background-color: #112240;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover{
+  text-decoration: none;
+  color: inherit;
+}
+
+.navbar-container .nav-login{
+  margin-right: 20px;
+}
+ 

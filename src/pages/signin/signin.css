@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.ui.form input:focus {
+  border-color: #64ffda !important;
+  box-shadow: #64ffda !important;
+}
+
+.ui.form input {
+  background-color: #112240 !important;
+  font-size: 18px !important;
+}
+
+.ui.form label {
+  font-family: "IBM Plex Mono", monospace !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  font-size: 20px !important;
+  line-height: 32px !important;
+  color: #ffffff !important;
+  text-align: left !important;
+}
+
+.ui.form input:not([type]),
+.ui.form input[type="date"],
+.ui.form input[type="datetime-local"],
+.ui.form input[type="email"],
+.ui.form input[type="file"],
+.ui.form input[type="number"],
+.ui.form input[type="password"],
+.ui.form input[type="search"],
+.ui.form input[type="tel"],
+.ui.form input[type="text"],
+.ui.form input[type="time"],
+.ui.form input[type="url"] {
+  color: white !important;
+}
+
+.signin-container .title {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 76px;
+  color: #64ffda;
+}
+
+.signin-container {
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+}
+
+.signin-container .child {
+  margin: auto;
+  width: 100%;
+}
+
+.signin-container .left {
+  flex-basis: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: linear-gradient(to bottom, #0d836a, #0b3650, #0a1930);
+}
+
+.signin-container .right {
+  padding-left: 5vw;
+  padding-right: 5vw;
+  flex-basis: 50%;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #0a192f;
+}
+
+.signin-container .button {
+  border: 2px solid #64ffda;
+  border-radius: 10px;
+  width: 200px;
+  margin: auto;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  color: #64ffda;
+  margin-top: 40px;
+  background-blend-mode: screen;
+}
+.signin-container .button:hover {
+  cursor: pointer;
+}
+.signin-container .type-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.signin-container .typing {
+  width: 44vw;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 57px;
+  color: #ffffff;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 4px solid #212121;
+  animation: cursor 1s step-start infinite, text 5s steps(18) alternate infinite;
+}
+@keyframes cursor {
+  0%,
+  100% {
+    border-color: #212121;
+  }
+}
+
+@keyframes text {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 44vw;
+  }
+}
+
+.signin-container .question {
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 44px;
+  color: #ffffff;
+  margin-top: 3vw;
+}
+
+.signin-container .forgot {
+  text-align: left;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+  font-family: "IBM Plex Mono", monospace;
+  color: #ffffff;
+  margin-top: 2.7vw;
+}

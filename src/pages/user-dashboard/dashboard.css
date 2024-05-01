@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.db-container {
+  min-height: 100vh;
+  background-color: #0a192f;
+}
+.db-container .line-after {
+  position: relative;
+  overflow: hidden;
+  display: block;
+  padding-left: 3.54vw;
+}
+.db-container .title {
+  display: block;
+  position: relative;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 3.33vw;
+  line-height: 61px;
+  color: white;
+}
+.db-container .line-after :after {
+  content: "";
+  position: absolute;
+  width: 42vw;
+  top: 50%;
+  margin-left: 3.54vw;
+  border: 1px solid #64ffda;
+}
+
+.db-container .flex-box {
+  display: flex;
+  padding-left: 3.54vw;
+  min-height: 90vh;
+}
+
+.db-container .details-box {
+  /* min-height: 100vh; */
+  width: 35vw;
+  display: flex;
+  justify-content: center; /* horizontally center the child div */
+  align-items: center;
+}
+
+.db-container .inner {
+  width: 352px;
+}
+.db-container .info-desc {
+  margin-bottom: 25px;
+}
+.db-container .info-title {
+  color: #64ffda;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4vw;
+}
+
+.db-container .info {
+  color: white;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4vw;
+}
+
+.db-container .statistics {
+  width: 64.5vw;
+}
+
+.db-container .button {
+  background: #0a192f;
+  border: 2px solid #ff6464;
+  border-radius: 7px;
+  width: 150px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "IBM Plex Mono", monospace;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ff6464;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.db-container .vertical-line {
+  border-left: 1px solid #183052;
+  height: 40vw;
+}
+
+.db-container .row-head {
+  display: flex;
+  width: 65vw;
+}
+
+.db-container .table-head {
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  font-family: "Antikor Mono";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.9vw;
+  line-height: 44px;
+  color: #64ffda;
+}
+
+.db-container .statistics {
+  margin-top: 50px;
+}
+
+.db-container .contest-data {
+  display: flex;
+  width: 65vw;
+  margin-top: 10px;
+}
+
+.db-container .contest-name,
+.db-container .score,
+.db-container .rank {
+  flex: 1;
+  width: 100%;
+  text-align: center;
+  font-family: "Antikor Text";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 34px;
+  color: #ffffff;
+}
+
+
+.problems-line-dashboard{
+  border: none;
+  height: 1px;
+  color: #333;
+  background-color: #333; 
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 18px;
+  margin-bottom: 18px;
+}

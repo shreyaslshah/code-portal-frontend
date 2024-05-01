@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600&display=swap");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home-component1-wrapper {
+  margin-left: 3.54vw;
+}
+.home-component1-wrapper:hover{
+  cursor: pointer;
+}
+
+
+.home-component1-wrapper .inner {
+  position: relative;
+}
+
+.home-component1-wrapper .contest-image {
+  max-width: 52.8vw;
+  max-height: 23.69vw;
+  background-color: #294753;
+}
+.home-component1-wrapper .image{
+  width: 52.8vw;
+  height: 23.69vw;
+}
+.home-component1-wrapper .contest-details {
+  position: absolute;
+  right: 6.3vw;
+  top: 0.76vw;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 300;
+}
+
+.home-component1-wrapper .title {
+  font-weight: 600;
+  font-size: 2.5vw;
+  line-height: 3.19vw;
+  color: white;
+  margin-bottom: 2.43vw;
+  width: 43vw;
+  text-align: right;
+}
+
+.home-component1-wrapper .contest-desc {
+  width: 44.16vw;
+  height: 11.3vw;
+  background-color: #112240;
+  color: white;
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2.4vw;
+}
+
+.home-component1-wrapper .desc-child {
+  font-weight: 300;
+  font-size: 1.38vw;
+  line-height: 1.73vw;
+  margin: auto;
+  width: 100%;
+  padding-right: 1.25vw;
+}
+
+.home-component1-wrapper .date {
+  text-align: right;
+  color: #64ffda;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.home-component1-wrapper .calendar{
+  margin-right: 1.31vw;
+}
+
+.home-component1-wrapper .desc-line{
+  border: 1px solid #64ffda;
+  margin-right: 6.3vw;
+  margin-top: 6.9vw;
+  margin-bottom: 6.87vw;
+}
